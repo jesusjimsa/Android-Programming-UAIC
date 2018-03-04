@@ -1,5 +1,3 @@
 <resources>
-	<string name="app_name">ShopOnline</string>
-	<string name="title_home">For sale</string>
-	<string name="title_dashboard">Cart</string>
+    <string name="app_name">ShopOnline</string>
 </resources>
