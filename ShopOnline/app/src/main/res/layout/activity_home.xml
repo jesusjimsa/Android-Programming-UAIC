@@ -1,9 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.jesusjimsa.shoponline.Home">
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.jesusjimsa.shoponline.Home">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbarStyle="insideOverlay"
+		tools:layout_editor_absoluteY="511dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/ppm_icon"
+				android:text="Please Please Me" />
+
+			<Button
+				android:id="@+id/button2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/wtb_icon"
+				android:text="With The Beatles" />
+
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/ahdn_icon"
+				android:text="A Hard Day's Night" />
+
+			<Button
+				android:id="@+id/button4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/bfs_icon"
+				android:text="Beatles For Sale" />
+
+			<Button
+				android:id="@+id/button5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/h_icon"
+				android:text="Help!" />
+
+			<Button
+				android:id="@+id/button6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/rs_icon"
+				android:text="Rubber Soul" />
+
+			<Button
+				android:id="@+id/button7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/r_icon"
+				android:text="Revolver" />
+
+			<Button
+				android:id="@+id/button8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/splhcb_icon"
+				android:text="Sgt Pepper's Lonely Hearts CLub Band" />
+
+			<Button
+				android:id="@+id/button9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/mmt_icon"
+				android:text="Magical Mistery Tour" />
+
+			<Button
+				android:id="@+id/button10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/tb_icon"
+				android:text="The Beatles" />
+
+			<Button
+				android:id="@+id/button11"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/ys_icon"
+				android:text="Yellow Submarine" />
+
+			<Button
+				android:id="@+id/button12"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/ar_icon"
+				android:text="Abbey Road" />
+
+			<Button
+				android:id="@+id/button13"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/lib_icon"
+				android:text="Let It Be" />
+
+
+		</LinearLayout>
+	</ScrollView>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ShopOnline</string>
+	<string name="app_name">ShopOnline</string>
+	<string name="Buy">Buy 9.99€</string>
+	<string name="please_please_me">Please Please Me</string>
+	<string name="please_please_me_desc">Please Please Me is the debut studio album by English rock band the Beatles. Parlophone rush-released the album on 22 March 1963 in the United Kingdom to capitalise on the success of their singles &quot;Please Please Me&quot; (No. 1 on most lists though only No. 2 on Record Retailer) and &quot;Love Me Do&quot; (No. 17). \t\tOf the album\'s 14 songs, eight were written by Lennon–McCartney (originally credited &quot;McCartney–Lennon&quot;), early evidence of what Rolling Stone later called &quot;[their invention of] the idea of the self-contained rock band, writing their own hits and playing their own instruments.&quot; In 2012, Please Please Me was voted 39th on Rolling Stone magazine\'s list of the &quot;500 Greatest Albums of All Time.&quot;</string>
+	<string name="with_the_beatles">With The Beatles</string>
 </resources>

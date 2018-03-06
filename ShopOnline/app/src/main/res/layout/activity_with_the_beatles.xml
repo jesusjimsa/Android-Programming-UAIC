@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.jesusjimsa.shoponline.with_the_beatles">
+
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="160dp"
+		android:layout_height="140dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:contentDescription="With The Beatles cover"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/with_the_beatles" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="0dp"
+		android:layout_height="69dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:text="With The Beatles"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		android:textSize="30sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/imageView2"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="0dp"
+		android:layout_height="65dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/Buy"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toEndOf="@+id/imageView2"
+		app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="With the Beatles is the second album by the English rock band the Beatles. It was released on 22 November 1963, on Parlophone, and was recorded four months after the band's debut Please Please Me. The album features eight original compositions (seven by Lennon–McCartney and &quot;Don't Bother Me&quot;, George Harrison's first recorded solo composition and his first released on a Beatles album) and six covers (mostly of Motown, rock and roll, and RB hits). The cover photograph was taken by the fashion photographer Robert Freeman, and it has been mimicked by several music groups over the years."
+		android:textAppearance="@style/TextAppearance.AppCompat"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="Info"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</android.support.constraint.ConstraintLayout>
