@@ -4,7 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 public class Home extends AppCompatActivity {
 
@@ -15,122 +16,146 @@ public class Home extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 
-		Button button1 = findViewById(R.id.button1);
-		Button button2 = findViewById(R.id.button2);
-		Button button3 = findViewById(R.id.button3);
-		Button button4 = findViewById(R.id.button4);
-		Button button5 = findViewById(R.id.button5);
-		Button button6 = findViewById(R.id.button6);
-		Button button7 = findViewById(R.id.button7);
-		Button button8 = findViewById(R.id.button8);
-		Button button9 = findViewById(R.id.button9);
-		Button button10 = findViewById(R.id.button10);
-		Button button11 = findViewById(R.id.button11);
-		Button button12 = findViewById(R.id.button12);
-		Button button13 = findViewById(R.id.button13);
+		ListView listView = findViewById(R.id.list_albums);
 
-		button1.setOnClickListener(new View.OnClickListener() {
+		listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 			@Override
-			public void onClick(View view) {
-				Intent ppm = new Intent(Home.this, Please_Please_Me.class);
-				startActivity(ppm);
+			public void onItemClick(AdapterView<?> adapterView, View view, int position, long id){
+				Intent intent = new Intent();
+				String album_cover = "";
+				String album_name = "";
+				String album_info = "";
+
+				switch(position){
+					case 0:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "please_please_me";
+						album_name = "please_please_me";
+						album_info = "please_please_me_desc";
+
+						break;
+					case 1:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "with_the_beatles";
+						album_name = "with_the_beatles";
+						album_info = "with_the_beatles_desc";
+
+						break;
+					case 2:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "a_hard_days_night";
+						album_name = "a_hard_days_night";
+						album_info = "a_hard_days_night_desc";
+
+						break;
+					case 3:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "beatles_for_sale";
+						album_name = "beatles_for_sale";
+						album_info = "beatles_for_sale_desc";
+
+						break;
+					case 4:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "help";
+						album_name = "help";
+						album_info = "help_desc";
+
+						break;
+					case 5:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "rubber_soul";
+						album_name = "rubber_soul";
+						album_info = "rubber_soul_desc";
+
+						break;
+					case 6:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "revolver";
+						album_name = "revolver";
+						album_info = "revolver_desc";
+
+						break;
+					case 7:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "sgt_peppers_lonely_hearts_club_band";
+						album_name = "sgt_peppers";
+						album_info = "sgt_peppers_desc";
+
+						break;
+					case 8:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "magical_mystery_tour";
+						album_name = "magical_mystery_tour";
+						album_info = "magical_mystery_tour_desc";
+
+						break;
+					case 9:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "the_beatles";
+						album_name = "the_beatles";
+						album_info = "the_beatles_desc";
+
+						break;
+					case 10:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "yellow_submarine";
+						album_name = "yellow_submarine";
+						album_info = "yellow_submarine_desc";
+
+						break;
+					case 11:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "abbey_road";
+						album_name = "abbey_road";
+						album_info = "abbey_road_desc";
+
+						break;
+					case 12:
+						intent = new Intent(Home.this, detailed.class);
+						album_cover = "let_it_be";
+						album_name = "let_it_be";
+						album_info = "let_it_be_desc";
+
+						break;
+					default:
+						break;
+				}
+
+				intent.putExtra("album_cover", album_cover);
+				intent.putExtra("album_name", album_name);
+				intent.putExtra("album_info", album_info);
+
+				startActivity(intent);
 			}
 		});
+	}
 
-		button2.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent wtb = new Intent(Home.this, with_the_beatles.class);
-				startActivity(wtb);
-			}
-		});
+	@Override
+	public void onStart(){
+		// call the superclass method first
+		super.onStart();
+	}
 
-		button3.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent ahdn = new Intent(Home.this, a_hard_days_night.class);
-				startActivity(ahdn);
-			}
-		});
+	@Override
+	public void onResume() {
+		super.onResume();  // Always call the superclass method first
+	}
 
-		button4.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent bfs = new Intent(Home.this, beatles_for_sale.class);
-				startActivity(bfs);
-			}
-		});
+	@Override
+	public void onPause() {
+		super.onPause();  // Always call the superclass method first
+	}
 
-		button5.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent h = new Intent(Home.this, help.class);
-				startActivity(h);
-			}
-		});
+	@Override
+	protected void onStop() {
+		// call the superclass method first
+		super.onStop();
+	}
 
-		button6.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent rs = new Intent(Home.this, rubber_soul.class);
-				startActivity(rs);
-			}
-		});
-
-		button7.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent r = new Intent(Home.this, revolver.class);
-				startActivity(r);
-			}
-		});
-
-		button8.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent splhcb = new Intent(Home.this, sgt_peppers_lonely_hearts_club_band.class);
-				startActivity(splhcb);
-			}
-		});
-
-		button9.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent mmt = new Intent(Home.this, magical_mistery_tour.class);
-				startActivity(mmt);
-			}
-		});
-
-		button10.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent tb = new Intent(Home.this, the_beatles.class);
-				startActivity(tb);
-			}
-		});
-
-		button11.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent ys = new Intent(Home.this, yellow_submarine.class);
-				startActivity(ys);
-			}
-		});
-
-		button12.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent ar = new Intent(Home.this, abbey_road.class);
-				startActivity(ar);
-			}
-		});
-
-		button13.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				Intent lib = new Intent(Home.this, let_it_be.class);
-				startActivity(lib);
-			}
-		});
+	@Override
+	public void onDestroy(){
+		// call the superclass method first
+		super.onDestroy();
 	}
 }

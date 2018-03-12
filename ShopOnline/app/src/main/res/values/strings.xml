@@ -1,7 +1,56 @@
 <resources>
 	<string name="app_name">ShopOnline</string>
 	<string name="Buy">Buy 9.99€</string>
+	<string name="info">Info</string>
+
+	<!-- Albums information -->
 	<string name="please_please_me">Please Please Me</string>
 	<string name="please_please_me_desc">Please Please Me is the debut studio album by English rock band the Beatles. Parlophone rush-released the album on 22 March 1963 in the United Kingdom to capitalise on the success of their singles &quot;Please Please Me&quot; (No. 1 on most lists though only No. 2 on Record Retailer) and &quot;Love Me Do&quot; (No. 17). \t\tOf the album\'s 14 songs, eight were written by Lennon–McCartney (originally credited &quot;McCartney–Lennon&quot;), early evidence of what Rolling Stone later called &quot;[their invention of] the idea of the self-contained rock band, writing their own hits and playing their own instruments.&quot; In 2012, Please Please Me was voted 39th on Rolling Stone magazine\'s list of the &quot;500 Greatest Albums of All Time.&quot;</string>
 	<string name="with_the_beatles">With The Beatles</string>
+	<string name="with_the_beatles_desc">With the Beatles is the second album by the English rock band the Beatles. It was released on 22 November 1963, on Parlophone, and was recorded four months after the band\'s debut Please Please Me. The album features eight original compositions (seven by Lennon–McCartney and \"Don\'t Bother Me\";, George Harrison\'s first recorded solo composition and his first released on a Beatles album) and six covers (mostly of Motown, rock and roll, and RB hits). The cover photograph was taken by the fashion photographer Robert Freeman, and it has been mimicked by several music groups over the years.</string>
+	<string name="a_hard_days_night">A Hard Day\'s Night</string>
+	<string name="a_hard_days_night_desc">A Hard Day\'s Night is the third studio album by the English rock band the Beatles, released on 10 July 1964, with side one containing songs from the soundtrack to their film A Hard Day\'s Night. The American version of the album was released two weeks earlier, on 26 June 1964 by United Artists Records, with a different track listing. In contrast to their first two albums, all 13 tracks on A Hard Day\'s Night were written by John Lennon and Paul McCartney showcasing the development of their songwriting talents. The album includes the title track, with its distinct opening chord, and the previously released &quot;Can\'t Buy Me Love&quot;, both transatlantic number-one singles for the band.</string>
+	<string name="abbey_road">Abbey Road</string>
+	<string name="abbey_road_desc">Abbey Road is the eleventh album by English rock band the Beatles, released on 26 September 1969 by Apple Records. The recording sessions for the album were the last in which all four Beatles participated. Although Let It Be was the final album that the Beatles completed before the band\'s dissolution in April 1970, most of the album had been recorded before the Abbey Road sessions began. A double A-side single from the album, &quot;Something&quot;/&quot;Come Together&quot;, released in October, topped the Billboard chart in the US.</string>
+	<string name="beatles_for_sale">Beatles For Sale</string>
+	<string name="beatles_for_sale_desc">Beatles for Sale is the fourth studio album by the English rock band the Beatles. It was released on 4 December 1964 in the United Kingdom on EMI\'s Parlophone label. Eight of the album\'s fourteen tracks appeared on Capitol Records\' concurrent release, Beatles \'65, issued in North America only. The album marked a departure from the ebullient tone that had characterised the Beatles\' previous work, partly due to the band\'s exhaustion after a series of tours that had established them as a worldwide phenomenon in 1964. The songs introduced darker musical moods and more introspective lyrics, with John Lennon adopting an autobiographical perspective in compositions such as &quot;I\'m a Loser&quot; and &quot;No Reply&quot;. The album also reflected the twin influences of country music and Bob Dylan, whom the Beatles met in New York in August 1964.</string>
+	<string name="help">Help!</string>
+	<string name="help_desc">Help! is the fifth studio album by English rock band the Beatles and the soundtrack from their film Help!. It was released on 6 August 1965. Produced by George Martin, it was the fifth UK album release by the band, and contains fourteen songs in its original British form. Seven of these, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and took up the first side of the vinyl album. The second side contained seven other releases including the most-covered song ever written, \"Yesterday\".</string>
+	<string name="let_it_be">Let It Be</string>
+	<string name="let_it_be_desc">Let It Be is the twelfth and final studio album by the English rock band the Beatles. It was released on 8 May 1970, almost a month after the group\'s break-up. Like most of the band\'s previous releases, it was a number one album in many countries, including both the US and the UK, and was released in tandem with the motion picture of the same name.</string>
+	<string name="magical_mystery_tour">Magical Mystery Tour</string>
+	<string name="magical_mystery_tour_desc">Magical Mystery Tour is an album by the English rock band the Beatles that was released as a double EP in the United Kingdom and an LP in the United States. Produced by George Martin, it includes the soundtrack to the 1967 film of the same name. The EP was issued in the UK on 8 December 1967 on the Parlophone label, while the Capitol Records LP release in the US occurred on 27 November and featured eleven tracks with the addition of songs from the band\'s 1967 singles. The first release as an eleven-track LP in the UK did not occur until 1976.</string>
+	<string name="revolver">Revolver</string>
+	<string name="revolver_desc">Revolver is the seventh studio album by the English rock band the Beatles. Released on 5 August 1966, it was the Beatles\' final recording project before their retirement as live performers and marked the group\'s most overt use of studio technology up to that time, building on the advances of their 1965 release Rubber Soul. The album\'s diverse sounds include tape loops and backwards recordings on the psychedelic &quot;Tomorrow Never Knows&quot;, a classical string octet on &quot;Eleanor Rigby&quot;, and Indian-music backing on &quot;Love You To&quot;. The album was reduced to eleven songs by Capitol Records in North America, where three of its tracks instead appeared on the June 1966 release Yesterday and Today.</string>
+	<string name="rubber_soul">Rubber Soul</string>
+	<string name="rubber_soul_desc">Rubber Soul is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom, on EMI\'s Parlophone label, accompanied by the non-album double A-side single &quot;Day Tripper&quot; / &quot;We Can Work It Out&quot;. The original North American version of the album was altered by Capitol Records to include a different selection of tracks. Rubber Soul met with a highly favourable critical response and topped record charts in Britain and the United States for several weeks.</string>
+	<string name="sgt_peppers">Sgt Pepper\'s Lonely Hearts Club Band</string>
+	<string name="sgt_peppers_desc">Sgt. Pepper\'s Lonely Hearts Club Band is the eighth studio album by English rock band the Beatles. Released on 26 May 1967 in the United Kingdom and 2 June 1967 in the United States, it was an immediate commercial and critical success, spending 27 weeks at the top of the UK albums chart and 15 weeks at number one in the US. On release, the album was lauded by the vast majority of critics for its innovations in music production, songwriting and graphic design, for bridging a cultural divide between popular music and high art, and for providing a musical representation of its generation and the contemporary counterculture. It won four Grammy Awards in 1968, including Album of the Year, the first rock LP to receive this honour.</string>
+	<string name="the_beatles">The Beatles</string>
+	<string name="the_beatles_desc">The Beatles, also known as the White Album, is the ninth studio album by English rock group the Beatles, released on 22 November 1968. A double album, its plain white sleeve has no graphics or text other than the band\'s name embossed, which was intended as a direct contrast to the vivid cover artwork of the band\'s earlier Sgt. Pepper\'s Lonely Hearts Club Band. Although no singles were issued from The Beatles in Britain and the United States, the songs &quot;Hey Jude&quot; and &quot;Revolution&quot; originated from the same recording sessions and were issued on a single in August 1968. The album's songs range in style from British blues and ska to tracks influenced by Chuck Berry and by Karlheinz Stockhausen.</string>
+	<string name="yellow_submarine">Yellow Submarine</string>
+	<string name="yellow_submarine_desc">Yellow Submarine is the tenth studio album by English rock band the Beatles, released on 13 January 1969 in the United States and on 17 January 1969 in the United Kingdom. It was issued as the soundtrack to the animated film of the same name, which premiered in London in July 1968. The album contains six songs by the Beatles, including four new songs and the previously released &quot;Yellow Submarine&quot; and &quot;All You Need Is Love&quot;. The remainder of the album is a re-recording of the film\'s orchestral soundtrack by the band\'s producer, George Martin.</string>
+	<string name="image_desc">Album cover</string>
+
+	<!-- Album names -->
+	<string-array name="album_names">
+		<item>Please Please Me</item>
+		<item>With The Beatles</item>
+		<item>A Hard Day's Night</item>
+		<item>Beatles For Sale</item>
+		<item>Help</item>
+		<item>Rubber Soul</item>
+		<item>Revolver</item>
+		<item>Sgt Pepper's Lonely Hearts Club Band</item>
+		<item>Magical Mystery Tour</item>
+		<item>The Beatles</item>
+		<item>Yellow Submarine</item>
+		<item>Abbey Road</item>
+		<item>Let It Be</item>
+	</string-array>
+
+	<!-- Menu options -->
+	<string name="cart">Cart</string>
+	<string name="products">Products</string>
+	<string name="settings">Settings</string>
 </resources>
