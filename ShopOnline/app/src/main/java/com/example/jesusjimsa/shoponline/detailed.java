@@ -3,6 +3,8 @@ package com.example.jesusjimsa.shoponline;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,5 +31,12 @@ public class detailed extends AppCompatActivity {
 		TextView text_info = findViewById(R.id.album_info);
 		resourceID = getResources().getIdentifier(album_info, "string", getPackageName());
 		text_info.setText(resourceID);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_shop, menu);
+		return true;
 	}
 }
