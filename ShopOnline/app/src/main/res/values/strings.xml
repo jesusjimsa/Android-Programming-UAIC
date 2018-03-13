@@ -1,4 +1,5 @@
 <resources>
+	<!-- Miscellaneous -->
 	<string name="app_name">ShopOnline</string>
 	<string name="Buy">Buy 9.99€</string>
 	<string name="info">Info</string>
