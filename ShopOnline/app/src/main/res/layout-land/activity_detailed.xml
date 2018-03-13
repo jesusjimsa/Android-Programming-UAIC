@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.jesusjimsa.shoponline.detailed">
+
+	<ImageView
+		android:id="@+id/album_cover"
+		android:layout_width="160dp"
+		android:layout_height="140dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:contentDescription="@string/image_desc"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/please_please_me" />
+
+	<TextView
+		android:id="@+id/album_name"
+		android:layout_width="0dp"
+		android:layout_height="77dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/please_please_me"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		android:textSize="30sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/album_cover"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="0dp"
+		android:layout_height="65dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:text="@string/Buy"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/album_cover"
+		app:layout_constraintTop_toBottomOf="@+id/album_name" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/info"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/album_cover" />
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/album_info"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/please_please_me_desc"
+				android:textAppearance="@style/TextAppearance.AppCompat" />
+		</LinearLayout>
+	</ScrollView>
+
+</android.support.constraint.ConstraintLayout>
