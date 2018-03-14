@@ -49,20 +49,22 @@ public class detailed extends AppCompatActivity {
 			case R.id.products:
 				intent = new Intent(detailed.this, Home.class);
 
+				this.startActivity(intent);
+
 				break;
 			case R.id.cart:
-				// Nothing, you are already there
+				// Very soon
 
 				break;
 			case R.id.settings:
 				intent = new Intent(detailed.this, Settings.class);
 
+				this.startActivity(intent);
+
 				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
-
-		this.startActivity(intent);
 
 		return true;
 	}

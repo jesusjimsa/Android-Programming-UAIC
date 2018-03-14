@@ -182,16 +182,18 @@ public class Home extends AppCompatActivity {
 			case R.id.cart:
 				intent = new Intent(Home.this, Home.class);
 
+				this.startActivity(intent);
+
 				break;
 			case R.id.settings:
 				intent = new Intent(Home.this, Settings.class);
+
+				this.startActivity(intent);
 
 				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
-
-		this.startActivity(intent);
 
 		return true;
 	}

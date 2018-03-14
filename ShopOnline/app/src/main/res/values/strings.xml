@@ -9,6 +9,7 @@
 	<string name="sure">Are you sure?</string>
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
+	<string name="emptied">Cart emptied</string>
 
 	<!-- Albums information -->
 	<string name="please_please_me">Please Please Me</string>
