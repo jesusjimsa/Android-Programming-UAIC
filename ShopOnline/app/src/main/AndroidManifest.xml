@@ -29,7 +29,8 @@
 		<activity android:name=".yellow_submarine" />
 		<activity android:name=".abbey_road" />
 		<activity android:name=".let_it_be" />
-		<activity android:name=".detailed"></activity>
+		<activity android:name=".detailed" />
+		<activity android:name=".Settings"></activity>
 	</application>
 
 </manifest>

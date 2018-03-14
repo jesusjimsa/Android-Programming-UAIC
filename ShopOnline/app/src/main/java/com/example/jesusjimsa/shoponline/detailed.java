@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -37,6 +38,32 @@ public class detailed extends AppCompatActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu_shop, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		Intent intent = new Intent();
+
+		switch (item.getItemId()) {
+			case R.id.products:
+				intent = new Intent(detailed.this, Home.class);
+
+				break;
+			case R.id.cart:
+				// Nothing, you are already there
+
+				break;
+			case R.id.settings:
+				intent = new Intent(detailed.this, Settings.class);
+
+				break;
+			default:
+				return super.onContextItemSelected(item);
+		}
+
+		this.startActivity(intent);
+
 		return true;
 	}
 }

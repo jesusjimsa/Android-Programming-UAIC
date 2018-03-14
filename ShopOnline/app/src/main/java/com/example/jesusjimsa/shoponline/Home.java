@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -139,23 +140,25 @@ public class Home extends AppCompatActivity {
 
 	@Override
 	public void onResume() {
-		super.onResume();  // Always call the superclass method first
+		// Always call the superclass method first
+		super.onResume();
 	}
 
 	@Override
 	public void onPause() {
-		super.onPause();  // Always call the superclass method first
+		// Always call the superclass method first
+		super.onPause();
 	}
 
 	@Override
 	protected void onStop() {
-		// call the superclass method first
+		// Always call the superclass method first
 		super.onStop();
 	}
 
 	@Override
 	public void onDestroy(){
-		// call the superclass method first
+		// Always call the superclass method first
 		super.onDestroy();
 	}
 
@@ -163,6 +166,33 @@ public class Home extends AppCompatActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.menu_shop, menu);
+
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		Intent intent = new Intent();
+
+		switch (item.getItemId()) {
+			case R.id.products:
+				// Nothing, you are already there
+
+				break;
+			case R.id.cart:
+				intent = new Intent(Home.this, Home.class);
+
+				break;
+			case R.id.settings:
+				intent = new Intent(Home.this, Settings.class);
+
+				break;
+			default:
+				return super.onContextItemSelected(item);
+		}
+
+		this.startActivity(intent);
+
 		return true;
 	}
 }
