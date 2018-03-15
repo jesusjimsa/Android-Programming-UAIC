@@ -6,7 +6,7 @@
 
 	<!-- Settings -->
 	<string name="empty_cart">Empty cart</string>
-	<string name="sure">Are you sure?</string>
+	<string name="sure">Are you sure? (It won\'t really do it, not yet)</string>
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="emptied">Cart emptied</string>
@@ -55,6 +55,14 @@
 		<item>Yellow Submarine</item>
 		<item>Abbey Road</item>
 		<item>Let It Be</item>
+	</string-array>
+
+	<!-- Albums in cart -->
+	<string-array name="albums_cart">
+		<item>Beatles For Sale</item>
+		<item>Help</item>
+		<item>Sgt Pepper's Lonely Hearts Club Band</item>
+		<item>Abbey Road</item>
 	</string-array>
 
 	<!-- Menu options -->

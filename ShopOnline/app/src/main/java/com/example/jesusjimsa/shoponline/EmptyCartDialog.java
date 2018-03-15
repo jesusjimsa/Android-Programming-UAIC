@@ -7,7 +7,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.Toast;
 
-public class EmptyDialog extends DialogFragment{
+public class EmptyCartDialog extends DialogFragment{
 
 	@Override
 	public AlertDialog onCreateDialog(Bundle savedInstanceState){

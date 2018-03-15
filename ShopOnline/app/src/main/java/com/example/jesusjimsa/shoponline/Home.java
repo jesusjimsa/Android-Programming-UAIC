@@ -172,7 +172,7 @@ public class Home extends AppCompatActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		Intent intent = new Intent();
+		Intent intent;
 
 		switch (item.getItemId()) {
 			case R.id.products:
@@ -180,7 +180,7 @@ public class Home extends AppCompatActivity {
 
 				break;
 			case R.id.cart:
-				intent = new Intent(Home.this, Home.class);
+				intent = new Intent(Home.this, Cart.class);
 
 				this.startActivity(intent);
 
