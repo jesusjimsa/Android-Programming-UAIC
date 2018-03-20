@@ -10,8 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.Set;
-
 public class Settings extends AppCompatActivity {
 
 	@Override
