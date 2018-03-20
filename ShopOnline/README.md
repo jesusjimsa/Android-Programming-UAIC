@@ -25,6 +25,6 @@ For the app started in the second practical class, complete the following tasks:
 
 ## Fourth part
 - Create a PreferenceActivity for your application and store the settings using SharedPreferences (2.5p)
-- Add support for saving App Information on disk (InternalStorage/ExternalStorage/Database) (2.5p)
+- Add support for saving App Information on disk (InternalStorage/ExternalStorage/Database) (2.5p)
 
 
