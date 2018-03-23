@@ -16,22 +16,11 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".Please_Please_Me" />
-		<activity android:name=".with_the_beatles" />
-		<activity android:name=".a_hard_days_night" />
-		<activity android:name=".beatles_for_sale" />
-		<activity android:name=".help" />
-		<activity android:name=".rubber_soul" />
-		<activity android:name=".revolver" />
-		<activity android:name=".sgt_peppers_lonely_hearts_club_band" />
-		<activity android:name=".magical_mistery_tour" />
-		<activity android:name=".the_beatles" />
-		<activity android:name=".yellow_submarine" />
-		<activity android:name=".abbey_road" />
-		<activity android:name=".let_it_be" />
 		<activity android:name=".detailed" />
 		<activity android:name=".Settings" />
 		<activity android:name=".Cart"></activity>
+		<activity android:name=".Preferences"
+			android:label="Preferences"></activity>
 	</application>
 
 </manifest>

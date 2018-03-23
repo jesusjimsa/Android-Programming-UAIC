@@ -1,7 +1,9 @@
 package com.example.jesusjimsa.shoponline;
 
 import android.app.FragmentManager;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,8 +11,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class Settings extends AppCompatActivity {
+
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +65,12 @@ public class Settings extends AppCompatActivity {
 				break;
 			case R.id.settings:
 				// Nothing, you are already there
+
+				break;
+			case R.id.preferences:
+				intent = new Intent(Settings.this, Preferences.class);
+
+				this.startActivity(intent);
 
 				break;
 			default:

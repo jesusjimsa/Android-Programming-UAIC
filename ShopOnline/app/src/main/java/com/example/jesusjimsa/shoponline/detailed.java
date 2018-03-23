@@ -43,7 +43,7 @@ public class detailed extends AppCompatActivity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		Intent intent = new Intent();
+		Intent intent;
 
 		switch (item.getItemId()) {
 			case R.id.products:
@@ -53,11 +53,19 @@ public class detailed extends AppCompatActivity {
 
 				break;
 			case R.id.cart:
-				// Very soon
+				intent = new Intent(detailed.this, Cart.class);
+
+				this.startActivity(intent);
 
 				break;
 			case R.id.settings:
 				intent = new Intent(detailed.this, Settings.class);
+
+				this.startActivity(intent);
+
+				break;
+			case R.id.preferences:
+				intent = new Intent(detailed.this, Preferences.class);
 
 				this.startActivity(intent);
 

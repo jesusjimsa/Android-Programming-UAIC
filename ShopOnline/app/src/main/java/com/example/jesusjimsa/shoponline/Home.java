@@ -1,6 +1,7 @@
 package com.example.jesusjimsa.shoponline;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuInflater;
@@ -128,8 +129,10 @@ public class Home extends AppCompatActivity {
 				intent.putExtra("album_info", album_info);
 
 				startActivity(intent);
+
 			}
-		});
+		}
+		);
 	}
 
 	@Override
@@ -191,10 +194,18 @@ public class Home extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.preferences:
+				intent = new Intent(Home.this, Preferences.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
 
 		return true;
 	}
+
+
 }

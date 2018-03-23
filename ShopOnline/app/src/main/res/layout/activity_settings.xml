@@ -6,9 +6,38 @@
 	android:layout_height="match_parent"
 	tools:context="com.example.jesusjimsa.shoponline.Settings">
 
+	<TextView
+		android:id="@+id/username_title"
+		android:layout_width="147dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/username_title"
+		android:textAppearance="@style/TextAppearance.AppCompat"
+		android:textSize="30sp"
+		app:layout_constraintBottom_toTopOf="@+id/empty_cart"
+		app:layout_constraintEnd_toStartOf="@+id/username"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/username"
+		android:layout_width="198dp"
+		android:layout_height="40dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="4dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/username"
+		android:textAppearance="@style/TextAppearance.AppCompat"
+		android:textSize="30sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/username_title"
+		app:layout_constraintTop_toTopOf="parent" />
+
 	<Button
 		android:id="@+id/empty_cart"
-		android:layout_width="0dp"
+		android:layout_width="match_parent"
 		android:layout_height="131dp"
 		android:layout_marginEnd="8dp"
 		android:layout_marginStart="8dp"
@@ -17,5 +46,30 @@
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHorizontal_bias="0.0"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent" />
+		app:layout_constraintTop_toBottomOf="@+id/username" />
+
+	<EditText
+		android:id="@+id/new_username"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:ems="10"
+		android:inputType="textPersonName"
+		android:text="Name"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/empty_cart" />
+
+	<Button
+		android:id="@+id/change_username"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/change_username"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/new_username"
+		app:layout_constraintTop_toBottomOf="@+id/empty_cart" />
+
 </android.support.constraint.ConstraintLayout>

@@ -44,6 +44,12 @@ public class Cart extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.preferences:
+				intent = new Intent(Cart.this, Preferences.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
