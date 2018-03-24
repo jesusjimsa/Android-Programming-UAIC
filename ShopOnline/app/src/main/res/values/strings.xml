@@ -10,7 +10,8 @@
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="emptied">Cart emptied</string>
-	<string name="change_username">Change username</string>
+	<string name="change_avatar_gallery">Change avatar with gallery picture</string>
+	<string name="change_avatar_camera">Change avatar with camera picture</string>
 	<string name="username">jesusjimsa</string>
 	<string name="username_title">Username:</string>
 
