@@ -27,4 +27,8 @@ For the app started in the second practical class, complete the following tasks:
 - Create a PreferenceActivity for your application and store the settings using SharedPreferences (2.5p)
 - Add support for saving App Information on disk (InternalStorage/ExternalStorage/Database) (2.5p)
 
+## Fifth part
+- Create a new Activity in your application and display information from the sensors available on the device.(2.5 p)
+- Add support for location services. Calculate and display coordinates using GPS. (2.5 p)
+
 
