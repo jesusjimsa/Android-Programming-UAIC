@@ -50,6 +50,12 @@ public class Cart extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.sensors:
+				intent = new Intent(Cart.this, SensorsDisplay.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}

@@ -70,6 +70,12 @@ public class detailed extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.sensors:
+				intent = new Intent(detailed.this, SensorsDisplay.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
