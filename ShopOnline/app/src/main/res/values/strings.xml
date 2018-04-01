@@ -84,6 +84,11 @@
 		<item>Abbey Road</item>
 	</string-array>
 
+	<!-- Sensors -->
+	<string name="proximity">Proximity Sensor: %1$.2f</string>
+	<string name="light">Light: %1$.2f</string>
+	<string name="accelerometer">Accelerometer: %1$.2f, %2$.2f, %3$.2f</string>
+
 	<!-- Menu options -->
 	<string name="cart">Cart</string>
 	<string name="products">Products</string>
