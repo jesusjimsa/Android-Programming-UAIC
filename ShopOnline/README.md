@@ -31,4 +31,7 @@ For the app started in the second practical class, complete the following tasks:
 - Create a new Activity in your application and display information from the sensors available on the device.(2.5 p)
 - Add support for location services. Calculate and display coordinates using GPS. (2.5 p)
 
+## Fifth part
+- Create a new activity and access the camera. Taking photos and saving them should be supported.(5p)
+
 

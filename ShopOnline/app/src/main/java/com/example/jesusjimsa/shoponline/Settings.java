@@ -156,6 +156,12 @@ public class Settings extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.camera:
+				intent = new Intent(Settings.this, MyCamera.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}

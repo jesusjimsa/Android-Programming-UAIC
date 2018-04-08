@@ -15,11 +15,6 @@ public class Preferences extends PreferenceActivity {
 		getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();
 	}
 
-//	@Override
-//	public void onBuildHeaders(List<Header> target) {
-//		loadHeadersFromResource(R.xml.headers_preferences, target);
-//	}
-
 	@Override
 	protected boolean isValidFragment(String fragmentName) {
 		return MyPreferenceFragment.class.getName().equals(fragmentName);

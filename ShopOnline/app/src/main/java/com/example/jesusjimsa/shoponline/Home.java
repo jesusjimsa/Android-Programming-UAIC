@@ -206,6 +206,12 @@ public class Home extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.camera:
+				intent = new Intent(Home.this, MyCamera.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}

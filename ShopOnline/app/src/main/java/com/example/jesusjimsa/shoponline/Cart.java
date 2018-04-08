@@ -56,6 +56,12 @@ public class Cart extends AppCompatActivity {
 				this.startActivity(intent);
 
 				break;
+			case R.id.camera:
+				intent = new Intent(Cart.this, MyCamera.class);
+
+				this.startActivity(intent);
+
+				break;
 			default:
 				return super.onContextItemSelected(item);
 		}
