@@ -11,6 +11,7 @@
 
 	<uses-feature android:name="android.hardware.camera.autofocus" />
 	<uses-feature android:name="android.hardware.location.gps" />
+	<uses-feature android:name="android.hardware.camera2.full" />
 
 	<uses-feature
 		android:name="android.hardware.camera"
@@ -38,8 +39,11 @@
 			android:name=".Preferences"
 			android:label="Preferences" />
 		<activity android:name=".SensorsDisplay" />
-		<activity android:name=".MyCamera"
-			android:screenOrientation="landscape">
+		<activity android:name=".MyCamera">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
 		</activity>
 	</application>
 
